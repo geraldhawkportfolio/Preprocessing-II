@@ -1,1 +1,20 @@
 // Mixins in here
+
+.buttonstyle(@fontsize){
+	border-radius: 10px;
+	color:white;
+	background-color: navy;
+	font-size: @fontsize;
+}
+
+@media(max-width:500px){
+	.toptopfont{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.topfont{
+		display:none;
+	}
+}

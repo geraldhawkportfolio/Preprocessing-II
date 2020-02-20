@@ -1,3 +1,13 @@
+@media (max-width: 500px) {
+  .toptopfont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .topfont {
+    display: none;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +178,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navvy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.navvy .innernavvy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 33%;
+}
+.navvy .innernavvy a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin: 0 2%;
+}
+.navvy div h2 {
+  font-size: 40px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +210,32 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 0 2px;
+}
+.content-section2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 0 8%;
+}
+.content-section2 text-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnst {
+  border-radius: 10px;
+  color: white;
+  background-color: navy;
+  font-size: 24px;
+}
+.toptopfont {
+  display: none;
 }
 .home .content-section {
   margin: 30px 0;
